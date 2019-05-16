@@ -11,9 +11,9 @@ This function deconvolve the instrument response from the input trace(s) using t
 
 **3. SubModules.jl**\
 This module includes the following functions:
-- freqcnt:\
-It calculates the frequency content of input trace(s) using the DSP package.\
-- uniqueidx:\
+- freqcnt:
+It calculates the frequency content of input trace(s) using the DSP package.
+- uniqueidx:
   It returns the indices of unique elements of an input 1D array.\
 - snrFcn:\
   It calculates the SNR function(s) of input trace(s).\
