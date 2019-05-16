@@ -4,10 +4,10 @@ Tools for research in Seismology
 The current repository includes the following scripts and modules:
 
 1. get_response_SACPZs.jl
-This function extracts the instrument response information from a SAC Poles and Zeros response file for a given DateTime.
+...This function extracts the instrument response information from a SAC Poles and Zeros response file for a given DateTime.
 
 2. removeIR.jl
-This function deconvolve the instrument response from the input trace(s) using the SAC Poles and Zeros of instrument response.
+..This function deconvolve the instrument response from the input trace(s) using the SAC Poles and Zeros of instrument response.
 
 3. SubModules.jl
 This module includes the following functions:
