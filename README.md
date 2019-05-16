@@ -1,5 +1,5 @@
 # Seismology
-Tools for research in Seismology
+Julia Tools for research in Seismology
 
 The current repository includes the following scripts and modules:
 
