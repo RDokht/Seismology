@@ -10,34 +10,34 @@ This function extracts the instrument response information from a SAC Poles and 
 This function deconvolve the instrument response from the input trace(s) using the SAC Poles and Zeros of instrument response.
 
 **3. SubModules.jl**\
-This module includes the following functions:\
+This module includes the following functions:
 - freqcnt:\
 It calculates the frequency content of input trace(s) using the DSP package.\
-3.2. uniqueidx:\
+- uniqueidx:\
   It returns the indices of unique elements of an input 1D array.\
-3.3. snrFcn:\
+- snrFcn:\
   It calculates the SNR function(s) of input trace(s).\
-3.4. fftshift:\
+- fftshift:\
   It applies time-shift(s) to input trace(s) using the fast fourier transform and the DSP package.\
-3.5. bwbp:\
+- bwbp:\
   It applies the Butteworth bandpass filter to input trace(s) using the DSP package.\
-3.6. resample:\
+- resample:\
   Ressampling the input trace(s) using the Interpolations package.\
-3.7. smooth1d:\
+- smooth1d:\
   Smoothing the input trace(s) using a moving window.\
-3.8. smooth2d:\
+- smooth2d:\
   Smoothing 2D array using 2D convolution of input array with two moving windows.\
-3.9. localminima:\
+- localminima:\
   It returns the indicies of local minima of an input trace.\
-3.10. localmaxima:\
+- localmaxima:\
   It returns the indicies of local maxima of an input trace.\
-3.11. stalta:\
+- stalta:\
   It calculates the STA/LTA functions of input traces using the original traces and/or their envelopes.\
-3.12. kurtosisFcn:\
+- kurtosisFcn:\
   Calculating the kurtosis functions of input traces.\
-3.13. scale_kurtosisFcn:\
+- scale_kurtosisFcn:\
   Calculating the modified/scaled kurtosis functions from the original kurtosis functions.\
-3.14. pol_covmat:\
+- pol_covmat:\
   It calculates the polarization parameters (such as: rectilinearity, degree of polarization, and etc) for input three-component waveform data using tje eigen values of the covariance matrix.
   
 
