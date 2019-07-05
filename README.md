@@ -38,7 +38,7 @@ It calculates the frequency content of input trace(s) using the DSP package.
 - scale_kurtosisFcn:\
   Calculating the modified/scaled kurtosis functions from the original kurtosis functions.
 - pol_covmat:\
-  It calculates the polarization parameters (such as: rectilinearity, degree of polarization, and etc) for input three-component waveform data using tje eigen values of the covariance matrix.
+  It calculates the polarization parameters (such as: rectilinearity, degree of polarization, and etc) for input three-component waveform data using the eigen values of the covariance matrix.
   
 
 
